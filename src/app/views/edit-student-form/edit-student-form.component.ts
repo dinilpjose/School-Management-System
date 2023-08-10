@@ -30,9 +30,6 @@ export class EditStudentFormComponent {
 
   ngOnInit(): void {
     this.student = this.studentData
-
-    console.log("studentData", this.studentData)
-
     const currentYear = new Date().getFullYear();
     for (let i = currentYear - 9; i <= currentYear; i++) {
       this.years.push(i);
@@ -64,9 +61,6 @@ export class EditStudentFormComponent {
   }
 
   onSubmit(): void {
-    console.log("hjkl");
-    
-
     this.dialogRef.close(this.form.value);
   }
 

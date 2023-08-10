@@ -38,7 +38,7 @@ export class LoginComponent {
 
     if (this.form.valid) {
       this.loginService.login(this.form.value)
-      this.loginService.isLogedIn.subscribe(data => { console.log(data); this.loggedIn = data })
+      this.loginService.isLogedIn.subscribe(data => {this.loggedIn = data })
       if (this.loggedIn) {
         this.disableLogin = false;
         this.loginService.isLogedIn.next(true);

@@ -123,7 +123,6 @@ export class HomeComponent implements OnInit {
 
   addNewStudent(newStudent: any): void {
     const yearArray = this.dataSet[newStudent.year]
-    console.log("yearArray", this.dataSet)
     const filterBystandard = yearArray[((newStudent.level).toLowerCase())]
     this.filteredStudents = filterBystandard?.
       flatMap(
