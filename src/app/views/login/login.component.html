@@ -1,0 +1,35 @@
+<div
+	style="display: grid; grid-column: 1/-1; justify-content: center;font: normal normal 600 30px/46px Poppins; letter-spacing: 0px; color: #131523; opacity: 1;">
+	Login
+</div>
+
+<div>
+	<form (ngSubmit)="onSubmit()" name="form" [formGroup]="form">
+		<mat-form-field>
+			<mat-label> Username </mat-label>
+			<input (keyup)="onChange()" #username formControlName="username" matInput required autocomplete="username" />
+			<mat-error *ngIf="form.get('username')"> Username is required </mat-error>
+		</mat-form-field>
+
+		<mat-form-field>
+			<mat-label> password </mat-label>
+			<input (keyup)="onChange()" #password formControlName="password" matInput [type]="showPassword ? 'text':'password'"
+				autocomplete="password">
+			<button mat-icon-button matSuffix (click)="showPassword = !showPassword" type="button">
+				<mat-icon> {{ showPassword ? 'visibility' : 'visibility_off' }} </mat-icon>
+			</button>
+			<mat-error *ngIf="form.get('password')"> A password of minimum 6 characters is required </mat-error>
+		</mat-form-field>
+		<div style="justify-content: space-between;	display: grid;	grid-template-columns: auto auto;">
+
+			<div style="padding-bottom: 2rem;font-size: 0.8rem;">
+				<a style="text-decoration: none;" routerLink="/forgot-password"> forgot password?</a>
+			</div>
+		</div>
+
+		<button [disabled]="disableLogin || !(form.touched && form.valid)"
+			style="font: normal normal bold 18px/36px Poppins; letter-spacing: 0.09px;; border-radius: 6px; opacity: 1;"
+			mat-flat-button color="primary" type="submit"> Login </button>
+		<div style="font-size: 1rem; color: red; padding-top: 1rem;" *ngIf="!!errorText"> {{ errorText }} </div>
+	</form>
+</div>

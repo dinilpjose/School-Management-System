@@ -1,0 +1,34 @@
+
+
+.loader {
+    width: 60px;
+    height: 45px;
+    position: relative;
+    animation: split .6s ease-in infinite alternate;
+  }
+  .loader::before , .loader::after {
+    content: '';
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    transform: translateX(-10px);
+    background: #534F97;
+    opacity: 0.75;
+    backdrop-filter: blur(50px);
+  }
+  
+  .loader::after {
+    left: auto;
+    right: 0;
+    background: #343272;
+    transform: translateX(10px);
+  }
+  
+  @keyframes split {
+   0% , 25%{ width: 64px }
+   100%{ width: 148px }
+  }
+    

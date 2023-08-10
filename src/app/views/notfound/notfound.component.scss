@@ -1,0 +1,23 @@
+:host {
+    display: grid;
+    /* padding: 1rem; */
+    height: 100%;
+    grid-template-rows: 1fr 1fr;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 4px #15223214;
+    border-radius: 6px;
+    grid-gap: 2rem;
+  }
+  
+  a {
+    height: 4rem;
+    width: 12rem;
+    display: grid;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold 18px/36px Poppins;
+    letter-spacing: 0.09px;
+  }
+  

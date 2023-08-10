@@ -1,0 +1,1830 @@
+{
+  "2022": {
+    "kg": [
+      {
+        "lkg": [
+          {
+            "student_name": "Joshua Lonaker",
+            "city": "Santa Clarita",
+            "gender": "M"
+          },
+          {
+            "student_name": "Dakota Blanco",
+            "city": "Oakland",
+            "gender": "F"
+          }
+        ]
+      },
+      {
+        "ukg": [
+          {
+            "student_name": "Natasha Yarusso",
+            "city": "Castro Valley",
+            "gender": "F"
+          },
+          {
+            "student_name": "Joshua ",
+            "city": "Sant",
+            "gender": "M"
+          }
+        ]
+      },
+      {
+        "1": [
+          {
+            "student_name": "Josh",
+            "city": "Clarita",
+            "gender": "M"
+          },
+          {
+            "student_name": "Kiana",
+            "city": "sadf",
+            "gender": "F"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "2": [
+          {
+            "student_name": "Lor",
+            "city": "Suzhou",
+            "gender": "F"
+          },
+          {
+            "student_name": "Kiana Lor",
+            "city": "jsa",
+            "gender": "F"
+          }
+        ]
+      },
+      {
+        "3": [
+          {
+            "student_name": "KLor",
+            "city": "Suzhou",
+            "gender": "F"
+          },
+          {
+            "student_name": "shdbLor",
+          "city": "ajb",
+          "gender": "F"
+          }
+        ]
+      },
+      {
+        "4": [
+          {
+            "student_name": "KjkawdLor",
+          "city": "bbbb",
+          "gender": "M"
+          },
+          {
+            "student_name": "Dakota Blanco",
+            "city": "Oakland",
+            "gender": "F"
+          }
+        ]
+      },
+      {
+        "5": [
+          {
+            "student_name": "Blanco",
+            "city": "Oakland",
+            "gender": "F"
+          },
+          {
+            "student_name": "Dakota",
+            "city": "Oakland",
+            "gender": "M"
+          }
+        ]
+      },
+      {
+        "6": [
+          {
+            "student_name": "awdBlanco",
+            "city": "ind",
+            "gender": "F"
+          }
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "7": [
+          {
+            "student_name": "ABCD",
+            "city": "Ind",
+            "gender": "F"
+          }
+        ]
+      },
+      {
+        "8": [
+          {
+            "student_name": "Natasha Yarusso",
+            "city": "Castro Valley",
+            "gender": "F"
+          }
+        ]
+      },
+      {
+        "9": [
+          {
+            "student_name": "Yarusso",
+            "city": "Castro Valley",
+            "gender": "F"
+          },
+          {
+            "student_name": "Natasha",
+            "city": "Castro Valley",
+            "gender": "F"
+          }
+        ]
+      },
+      {
+        "10": [
+          {
+            "student_name": "Natasha Yarusso",
+            "city": "Valley",
+            "gender": "F"
+          }
+        ]
+      }
+    ]
+  },
+  "2021": {
+    "kg": [
+      {
+        "lkg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "ukg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "1": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "2": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "3": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "4": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "5": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "6": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "7": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "8": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "9": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "10": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ]
+  },
+  "2020": {
+    "kg": [
+      {
+        "lkg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "ukg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "1": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "2": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "3": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "4": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "5": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "6": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "7": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "8": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "9": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "10": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ]
+  },
+  "2019": {
+    "kg": [
+      {
+        "lkg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "ukg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "1": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "2": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "3": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "4": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "5": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "6": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "7": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "8": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "9": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "10": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ]
+  },
+  "2018": {
+    "kg": [
+      {
+        "lkg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "ukg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "1": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "2": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "3": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "4": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "5": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "6": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "7": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "8": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "9": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "10": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ]
+  },
+  "2017": {
+    "kg": [
+      {
+        "lkg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "ukg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "1": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "2": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "3": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "4": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "5": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "6": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "7": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "8": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "9": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "10": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ]
+  },
+  "2016": {
+    "kg": [
+      {
+        "lkg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "ukg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "1": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "2": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "3": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "4": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "5": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "6": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "7": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "8": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "9": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "10": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ]
+  },
+  "2015": {
+    "kg": [
+      {
+        "lkg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "ukg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "1": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "2": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "3": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "4": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "5": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "6": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "7": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "8": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "9": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "10": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ]
+  },
+  "2014": {
+    "kg": [
+      {
+        "lkg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "ukg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "1": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "2": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "3": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "4": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "5": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "6": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "7": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "8": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "9": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "10": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ]
+  },
+  "2013": {
+    "kg": [
+      {
+        "lkg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "ukg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "1": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "2": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "3": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "4": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "5": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "6": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "7": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "8": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "9": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "10": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ]
+  },
+  "2012": {
+    "kg": [
+      {
+        "lkg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "ukg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "1": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "2": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "3": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "4": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "5": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "6": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "7": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "8": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "9": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "10": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ]
+  },
+  "2011": {
+    "kg": [
+      {
+        "lkg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "ukg": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "1": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "2": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "3": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "4": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "5": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "6": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "7": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "8": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "9": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      },
+      {
+        "10": [
+          {
+            "student_name": "a",
+            "student_age": "a"
+          },
+          {
+            "student_name": "b",
+            "student_class": "a"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+<!-- <p>home works!</p> -->
+
+<div class="filter-container">
+  <div style="display: grid;">
+    <label for="levelFilter">Select Level: </label>
+    <select id="levelFilter" [(ngModel)]="selectedLevel" (change)="onLevelChange(selectedLevel)">
+      <option *ngFor="let level of levels" [value]="level">{{ level }}</option>
+    </select>
+  </div>
+  <div style="display: grid;">
+    <label for="yearFilter">Select a Year: </label>
+    <select id="yearFilter" [(ngModel)]="selectedYear" (change)="onYearChange(selectedYear)">
+      <option *ngFor="let year of years" [value]="year">{{ year }}</option>
+    </select>
+  </div>
+  <div style="display: grid;">
+    <label for="standardFilter">Select a Standard: </label>
+    <select id="standardFilter" [(ngModel)]="selectedStandard" (change)="onStandardChange(selectedStandard)">
+      <option *ngFor="let standard of standards" [value]="standard">{{ standard }}</option>
+    </select>
+  </div>
+</div>
+<!-- <div style="text-align: center;margin-top: 1rem;">
+  <button (click)="submit()">Submit</button>
+</div> -->
+<div style="display: grid;align-items: start;">
+  <button
+    style="font: normal normal bold 18px/36px Poppins; letter-spacing: 0.09px;; border-radius: 6px; opacity: 1;;justify-self: center;width: 30%;"
+    mat-flat-button color="primary" (click)="submit()" type="submit"> Submit </button>
+</div>
+
+
+
+
+
+
+
+
+<div
+  style="display: grid;justify-content: end;align-items: center;grid-auto-flow: column;column-gap: 0.5rem;margin-right: 6rem;">
+  <div class="addIconClass" style="">
+    <mat-icon class="addIcon" (click)="openAddStudentDialog()">add</mat-icon>
+  </div>
+  <p style="color: black; font-size: 1.2rem;">Add New Student</p>
+</div>
+
+
+
+
+<div class="student-list">
+
+
+  <div class="table-container">
+    <table class="student-table">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>City</th>
+          <th>Gender</th>
+          <!-- <mat-icon (click)="openAddStudentDialog()" style="color: black;">add</mat-icon> -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of studentData">
+
+          <td style="cursor: pointer;" (click)="selectStudent(item)" *ngIf="!emptyRecord">{{item?.student_id}}</td>
+          <td style="cursor: pointer;" (click)="selectStudent(item)" *ngIf="!emptyRecord">{{item?.student_name}}</td>
+          <td style="cursor: pointer;" (click)="selectStudent(item)" *ngIf="!emptyRecord">{{ item?.city }}</td>
+          <td style="cursor: pointer;" *ngIf="!emptyRecord">{{ item?.gender }}</td>
+
+
+
+          <div
+            style=" border-radius: 50%;   background-color: white; display: grid;grid-auto-flow: column; column-gap: 1rem;">
+            <mat-icon style="color: black;  cursor: pointer; transition: background-color 0.3s ease;"
+              (click)="openEditStudentDialog(item)">edit</mat-icon>
+            <mat-icon style="color: black;  cursor: pointer; transition: background-color 0.3s ease;"
+              (click)="deleteStudent(item)">delete</mat-icon>
+
+          </div>
+
+
+
+          <!-- <button (click)="deleteStudent(item)">Delete</button> -->
+          <!-- <button (click)="openAddStudentDialog()">Add</button> -->
+
+          <!-- <button (click)="openEditStudentDialog(item)">Edit</button> -->
+        </tr>
+        <div *ngIf="emptyRecord">
+          <p style="text-align: center;font-size: 1.5rem;">No Records Found</p>
+        </div>
+      </tbody>
+    </table>
+  </div>
+</div>

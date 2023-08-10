@@ -1,0 +1,29 @@
+<div class="dashboard-container">
+    <div class="profile">
+        <img src="{{ studentData?.profilePhoto }}" alt="Profile Photo">
+    </div>
+    <div class="info">
+        <div style="display: grid;grid-template-columns: 1fr 1fr;text-align: justify;align-items: center;column-gap: 1rem;">
+            <h2 style="display: grid;">Name :</h2>
+            <span style="display: grid;">{{ studentData?.student_name }}</span>
+
+        </div>
+        <div style="display: grid;grid-template-columns: 1fr 1fr;text-align: justify;align-items: center;column-gap: 1rem">
+            <h2 style="display: grid;">City :</h2>
+            <span style="display: grid;"> {{ studentData?.city }}</span>
+
+        </div>
+        <div style="display: grid;grid-template-columns: 1fr 1fr;text-align: justify;align-items: center;column-gap: 1rem">
+            <h2 style="display: grid;">Gender : </h2>
+            <span style="display: grid;"> {{ studentData?.gender }}</span>
+
+        </div>
+    </div>
+    <div class="grades">
+        <h3>Grades</h3>
+        <div *ngFor="let subject of studentData?.subjects" class="grade">
+            <p class="subject">{{ subject.name }}</p>
+            <p class="grade">{{ subject.grade }}</p>
+        </div>
+    </div>
+</div>

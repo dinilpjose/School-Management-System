@@ -1,0 +1,51 @@
+<!-- student-form.component.html -->
+<form (ngSubmit)="onSubmit()" [formGroup]="form">
+  <!-- Other form fields... -->
+  <div>
+    <label >Level:</label>
+    <select formControlName="level" id="level" [(ngModel)]="student.level" name="level" (change)="onLevelChange()">
+      <option *ngFor="let level of levels" [value]="level">{{ level }}</option>
+    </select>
+  </div>
+  <div>
+    <label>Year:</label>
+    <select formControlName="year" id="year" [(ngModel)]="student.year" name="year" (change)="onYearChange()">
+      <option *ngFor="let year of years" [value]="year">{{ year }}</option>
+    </select>
+  </div>
+  <div>
+    <label>Standard:</label>
+    <select formControlName="standard" id="standard" [(ngModel)]="student.standard" name="standard">
+      <ng-container *ngIf="student.level === 'KG'; else primaryOrSecondary">
+        <option *ngFor="let standard of standardsKg" [value]="standard">{{ standard }}</option>
+      </ng-container>
+      <ng-template #primaryOrSecondary>
+        <ng-container *ngIf="student.level === 'Primary'; else secondary">
+          <option *ngFor="let standard of standardsPrimary" [value]="standard">{{ standard }}</option>
+        </ng-container>
+        <ng-template #secondary>
+          <option *ngFor="let standard of standardsSecondary" [value]="standard">{{ standard }}</option>
+        </ng-template>
+      </ng-template>
+    </select>
+  </div>
+  <div>
+    <label>Name:</label>
+    <input formControlName="student_name" type="text" id="student_name" [(ngModel)]="student.student_name" name="student_name" required>
+  </div>
+  <div>
+    <label>City:</label>
+    <input formControlName="city" type="text" id="city" [(ngModel)]="student.city" name="city" required>
+  </div>
+  <div>
+    <label>Gender:</label>
+    <select formControlName="gender" id="gender" [(ngModel)]="student.gender" name="gender" required>
+      <option value="M">Male</option>
+      <option value="F">Female</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+  <div style="text-align: center; margin-top: 1rem;">
+    <button type="submit">{{ isNewStudent ? 'Add Student' : 'Update Student' }}</button>
+  </div>
+</form>
