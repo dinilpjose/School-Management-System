@@ -1,7 +1,6 @@
-import { Component, Inject, Input } from '@angular/core';
-import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
-import { STUDENTS } from '../modelDAta';
-import { Student } from './student.model';
+import { Component, Input } from '@angular/core';
+import {  MatDialogRef } from '@angular/material/dialog';
+import { Student } from './studentGrade.model';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({

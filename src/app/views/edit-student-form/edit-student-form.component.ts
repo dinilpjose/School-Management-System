@@ -1,7 +1,7 @@
 import { Component, Inject, Input } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
-import { EditStudent } from '../home-page/student-form/student.model';
+import { EditStudent } from '../home-page/student-form/studentGrade.model';
 
 @Component({
   selector: 'app-edit-student-form',

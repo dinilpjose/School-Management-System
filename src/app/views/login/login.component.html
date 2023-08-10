@@ -7,14 +7,15 @@
 	<form (ngSubmit)="onSubmit()" name="form" [formGroup]="form">
 		<mat-form-field>
 			<mat-label> Username </mat-label>
-			<input (keyup)="onChange()" #username formControlName="username" matInput required autocomplete="username" />
+			<input (keyup)="onChange()" #username formControlName="username" matInput required
+				autocomplete="username" />
 			<mat-error *ngIf="form.get('username')"> Username is required </mat-error>
 		</mat-form-field>
 
 		<mat-form-field>
 			<mat-label> password </mat-label>
-			<input (keyup)="onChange()" #password formControlName="password" matInput [type]="showPassword ? 'text':'password'"
-				autocomplete="password">
+			<input (keyup)="onChange()" #password formControlName="password" matInput
+				[type]="showPassword ? 'text':'password'" autocomplete="password">
 			<button mat-icon-button matSuffix (click)="showPassword = !showPassword" type="button">
 				<mat-icon> {{ showPassword ? 'visibility' : 'visibility_off' }} </mat-icon>
 			</button>

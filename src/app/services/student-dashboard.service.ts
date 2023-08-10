@@ -12,18 +12,15 @@ export class StudentDashboardService {
   storageKey: string = 'studentDashboard';
 
   saveStudentData(student:any) {
-    console.log(student,'df')
+    console.debug(`StudentDashboardService/saveStudentData`)
 
-    
-    
     this.getStudentData = student
     localStorage.setItem(this.storageKey, JSON.stringify(this.getStudentData));
-    
-
   }
 
   getData(){
-    return this.getStudentData
+    console.debug(`StudentDashboardService/getData`)
 
+    return this.getStudentData
   }
 }

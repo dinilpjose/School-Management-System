@@ -1,5 +1,5 @@
-import { ChangeDetectorRef, Component } from '@angular/core';
-import { LoaderService } from './services/loader.service';
+import { Component } from '@angular/core';
+
 
 @Component({
   selector: 'app-root',
@@ -7,35 +7,12 @@ import { LoaderService } from './services/loader.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'school-management-system';
+  title = 'School-Management-System';
 
 
-  constructor(private readonly loaderService: LoaderService, private cdr: ChangeDetectorRef) {
-
+  constructor() {
   }
-
-
   ngOnInit() {
 
   }
-
-
-
-  show: boolean = false;
-
-
-
-  ngAfterViewInit(): void {
-    console.debug('AppComponent/ngAfterViewInit');
-
-    this.loaderService.httpProgress().subscribe({
-      next: (httpInProgress: boolean) => {
-        this.showLoader = httpInProgress;
-        this.cdr.detectChanges();
-      }
-    });
-  }
-
-
-  showLoader = false;
 }

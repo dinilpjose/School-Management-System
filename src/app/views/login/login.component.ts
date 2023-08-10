@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+import { LoginService } from 'src/app/services/login.service';
 
 
 interface User {
@@ -14,46 +16,46 @@ interface User {
 })
 export class LoginComponent {
 
-  users: User[] = [
-    { username: 'user1', password: 'password' },
-    { username: 'user2', password: 'password' },
-    { username: 'user3', password: 'password' }
-  ];
-
   constructor(
     private formBuilder: FormBuilder,
+    private loginService: LoginService,
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
-
     console.debug('LoginComponent/ngOnInit');
 
+    this.loginService.isLogedIn.next(false);
     sessionStorage.clear()
     localStorage.clear()
-
-
     this.form = this.formBuilder.group({
       username: new FormControl('', [Validators.required]),
       password: new FormControl('', [Validators.required]),
     })
-    // Validators.pattern("^\\s{0,}?[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,5}\\s{0,}?$")
-
   }
   onSubmit() {
-    const matchedUser = this.users.find((user) => user.username === this.form.value.username && user.password === this.form.value.password);
-    if (matchedUser) {
-      this.disableLogin = false;
-      this.errorText = 'Login successful!';
+    console.debug('LoginComponent/onSubmit()');
 
-    } else {
-      // User not found, show an error message
-      this.disableLogin = true;
-      this.errorText = 'Invalid Credentials';
-
+    if (this.form.valid) {
+      this.loginService.login(this.form.value)
+      this.loginService.isLogedIn.subscribe(data => { console.log(data); this.loggedIn = data })
+      if (this.loggedIn) {
+        this.disableLogin = false;
+        this.loginService.isLogedIn.next(true);
+        this.errorText = 'Login successful!';
+        this.router.navigate(['/home']);
+      }
+      else {
+        this.disableLogin = true;
+        this.errorText = 'Invalid Credentials';
+      }
     }
+
   }
 
-  onChange(){
+  onChange() {
+    console.debug('LoginComponent/onChange()');
+
     this.disableLogin = false;
   }
 
@@ -61,6 +63,7 @@ export class LoginComponent {
   showPassword = false;
   disableLogin = false;
   showQuestionnaire = false;
+  loggedIn: boolean = false;
   form: FormGroup = new FormGroup({});
 
 }

@@ -2,3 +2,12 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: "poppins", "Helvetica Neue", sans-serif; }
+.singleDialog .mat-dialog-container{
+    display:grid;
+    background-color: rgba(53, 53, 53, 0.97) !important;
+    border: 1px solid #666666;
+    border-radius: 16px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+    padding: 24px;
+}

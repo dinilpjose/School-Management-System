@@ -1,11 +1,8 @@
-/* Center the filter UI on the screen */
 :host {
   display: grid;
   height: 100vh;
   
 }
-
-/* Styling for the filter container */
 .filter-container {
   border: 1px solid #ccc;
   padding: 1rem;
@@ -14,17 +11,13 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* padding: 10px; */
-  /* width: 100%; */
   margin: 1rem;
   text-align: center;
-  justify-content: center;
   justify-items: center;
   justify-self: center;
   max-height: 7rem;;
 }
 
-/* Styling for the dropdowns */
 label {
   font-weight: bold;
 }
@@ -36,7 +29,6 @@ select {
   border-radius: 4px;
 }
 
-/* Additional styling (optional) */
 p {
   margin-top: 16px;
 }
@@ -55,16 +47,6 @@ button {
 button:hover {
   background-color: #0056b3;
 }
-
-/* @media screen and (max-width: 540px) {
-  .filter-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-} */
-
 
 
 .student-list {
@@ -129,5 +111,3 @@ button:hover {
 .student-table tbody tr:nth-child(even) {
   background-color: #f8f8f8;
 }
-
-/* Rest of your existing styles */

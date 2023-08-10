@@ -1,24 +1,30 @@
 <!-- student-form.component.html -->
-<form (ngSubmit)="onSubmit()" [formGroup]="form">
-    <!-- Other form fields... -->
+<div class="dialog-container">
+  <div class="form-grid">
 
-    <div>
-      <label>Name:</label>
-      <input formControlName="student_name" type="text" id="student_name" [(ngModel)]="student.student_name" name="student_name" required>
-    </div>
-    <div>
-      <label>City:</label>
-      <input formControlName="city" type="text" id="city" [(ngModel)]="student.city" name="city" required>
-    </div>
-    <div>
-      <label>Gender:</label>
-      <select formControlName="gender" id="gender" [(ngModel)]="student.gender" name="gender" required>
-        <option value="M">Male</option>
-        <option value="F">Female</option>
-        <option value="other">Other</option>
-      </select>
-    </div>
-    <div style="text-align: center; margin-top: 1rem;">
-      <button type="submit">Update Student</button>
-    </div>
-  </form>
+    <form (ngSubmit)="onSubmit()" [formGroup]="form">
+      <!-- Other form fields... -->
+
+      <div>
+        <label>Name:</label>
+        <input formControlName="student_name" type="text" id="student_name" [(ngModel)]="student.student_name"
+          name="student_name" required>
+      </div>
+      <div>
+        <label>City:</label>
+        <input formControlName="city" type="text" id="city" [(ngModel)]="student.city" name="city" required>
+      </div>
+      <div>
+        <label>Gender:</label>
+        <select formControlName="gender" id="gender" [(ngModel)]="student.gender" name="gender" required>
+          <option value="M">Male</option>
+          <option value="F">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div style="text-align: center; margin-top: 1rem;">
+        <button type="submit">Update Student</button>
+      </div>
+    </form>
+  </div>
+</div>

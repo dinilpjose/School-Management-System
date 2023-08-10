@@ -19,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     NotfoundComponent,
     LayoutComponent,
-    HeaderComponent
+    HeaderComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -30,7 +31,7 @@ import { HttpClientModule } from '@angular/common/http';
     ReactiveFormsModule,
     AppMaterialModule,
     HttpClientModule,
-  
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
