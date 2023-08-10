@@ -56,6 +56,7 @@ export class StudentFormComponent {
   }
 
   onSubmit(): void {
+    if(this.form.valid)
    
     this.dialogRef.close(this.form.value);
   }
